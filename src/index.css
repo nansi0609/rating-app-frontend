@@ -1,0 +1,94 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    height: 900px;
+    text-align: center;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+div {
+    align-self: center;
+    color: #343a40;
+    justify-Content: center;
+    align-Items: center;
+    text-Align: center;
+    float: none;
+    margin: 0 auto;
+    border-style: solid;
+    border-width: thin;
+}
+
+label {
+    font-size: 25px;
+    text-align: right;
+}
+
+input {
+    height: 40px;
+    width: 250px;
+}
+
+.remark {
+    height: 80px;
+}
+
+
+/* input::placeholder {
+        text-align: left;
+    }
+     */
+
+button {
+    width: 100px;
+    height: 45px;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 250px;
+    height: 100px;
+}
+
+
+/* #outlined-basic {
+        margin: 0px !important;
+        height: 100px !important;
+    } */
+
+.MuiFormControl-root.MuiTextField-root.textField {
+    height: 50px !important;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.MuiInputBase-input {
+    background: white !important;
+}
+
+.MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-formControl {
+    margin: 0px;
+    padding: 0px;
+}
+
+#root {
+    border: black;
+    border-width: 15px;
+    width: 600px !important;
+}
+
+#submit,
+#clear {
+    text-align: center !important;
+    margin: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    background-color: grey;
+    width: fit-content;
+}
