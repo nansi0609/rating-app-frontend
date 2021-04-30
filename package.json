@@ -2,7 +2,7 @@
     "name": "my-first-react-app",
     "version": "0.1.0",
     "private": false,
-    "proxy": "http://localhost:4000",
+
     "dependencies": {
         "@fortawesome/fontawesome": "^1.1.8",
         "@fortawesome/fontawesome-free-regular": "^5.0.13",

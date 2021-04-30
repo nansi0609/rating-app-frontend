@@ -6,7 +6,7 @@ import axios from 'axios';
 
 
 const App =() =>{
-  const url = "http://localhost:4000/submit"
+  // const url = "http://localhost:4000/submit"
     const [user, setUser] = useState({
       fname: "",
       date_time: "",
