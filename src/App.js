@@ -7,7 +7,7 @@ import axios from 'axios';
 
 
 const App =() =>{
-  // const url = "http://localhost:4000/submit"
+
     const [user, setUser] = useState({
       fname: "",
       date_time: "",
@@ -43,16 +43,21 @@ const App =() =>{
 
     });
   };
+  const config = {
+    headers: {
+      'Content-Type': 'application/json',
+    }
+  }
 
   const postdata = (e) => {
     e.preventDefault();
      const newRecord = {...user};
      console.log(newRecord);
     
-    axios.post(`http://localhost:4000`, user)
+     axios.post(`http://localhost:4000/user`, user,config)
     .then(res => {
        console.log(res);
-       console.log(res.data); 
+       
        alert("Your data submitted successfully")
        if(res.status===200){
         handleReset();
